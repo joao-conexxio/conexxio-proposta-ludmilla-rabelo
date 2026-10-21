@@ -1,0 +1,264 @@
+{
+  "slug": "ludmilla-rabelo",
+  "negocio": {
+    "nome": "Ludmilla Rabelo Estética Avançada",
+    "logo": "brand/logo.png",
+    "whatsapp": "5562994479294",
+    "unidades": [
+      {
+        "bairro": "Jardim América · Goiânia",
+        "endereco": "Av. C-233, Qd. 554, Lt. 14 – Jardim América, Goiânia – GO, 74290-040",
+        "telefone": "(62) 99129-3242",
+        "horario": "Atendimento até as 21h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#7A2E3A",
+    "brand2": "#5A1F2A",
+    "ink": "#2E1A1E",
+    "bg": "#FBF5F3",
+    "pulse": "#D4A148",
+    "radius": "10px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "A revista",
+            "href": "#revista"
+          },
+          {
+            "texto": "Como funciona",
+            "href": "#como-funciona"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Goiânia · há 18 anos",
+        "h1": "Autoestima como hábito",
+        "lead": "Com amor e humor: harmonização facial, botox, bioestimulador e corpo, no Jardim América.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "Ludmilla Rabelo · Estética Avançada ·",
+        "cardTitulo": "Fale com a Clara",
+        "imagem": "midia/ludmilla-retrato.jpg",
+        "imagemAlt": "Ludmilla Rabelo sorrindo na mesa do consultório, de blusa de renda branca, com o notebook aberto",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Harmonização facial",
+          "Botox",
+          "Bigode chinês",
+          "Lábios",
+          "Bioestimulador",
+          "Fio de PDO",
+          "Ultrassom microfocado",
+          "Drenagem pós-operatório",
+          "Criofrequência",
+          "Depilação a laser",
+          "Jardim América"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "Goiânia conhece de perto",
+        "itens": [
+          {
+            "valor": "18+",
+            "rotulo": "anos cuidando de autoestima",
+            "contar": 18
+          },
+          {
+            "valor": "4,9",
+            "rotulo": "de nota no Google"
+          },
+          {
+            "valor": "195",
+            "rotulo": "avaliações de pacientes",
+            "contar": 195
+          },
+          {
+            "valor": "43",
+            "rotulo": "procedimentos no catálogo da casa",
+            "contar": 43
+          }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "O jeito da casa",
+        "citacao": "Você chega com uma queixa. A conversa começa por ela, não pelo procedimento da moda.",
+        "autor": "Ludmilla Rabelo Estética Avançada",
+        "texto": [
+          "Há mais de dezoito anos a Ludmilla atende em Goiânia, e boa parte da cidade a conhece pelo jeito: fala de autoestima sem drama e ri junto, inclusive de si mesma.",
+          "Na sala, é outra conversa. Antes de indicar seringa, aparelho ou protocolo, ela quer saber o que incomoda você no espelho e o que você espera ver daqui a alguns meses."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Os mais procurados da casa. Se não sabe por onde começar, conte no WhatsApp o que quer mudar.",
+        "itens": [
+          {
+            "nome": "Harmonização facial",
+            "descricao": "Um conjunto de técnicas combinadas para equilibrar queixo, mandíbula, maçãs do rosto e lábios. O plano é montado para o seu rosto, não copiado de outro.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Botox",
+            "descricao": "Toxina botulínica para suavizar as linhas de expressão da testa, da glabela e dos olhos, mantendo o rosto com movimento.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento",
+            "descricao": "Ácido hialurônico para bigode chinês, olheiras, lábios, contorno e mento. Indicado para mulheres e homens.",
+            "icone": "gota"
+          },
+          {
+            "nome": "Bioestimulador de colágeno",
+            "descricao": "Estimula a pele a produzir o próprio colágeno, para quem quer tratar a flacidez com resultado que aparece aos poucos.",
+            "icone": "molecula"
+          },
+          {
+            "nome": "Fio de PDO",
+            "descricao": "Fios absorvíveis que dão suporte ao tecido e estimulam colágeno no rosto, sem cirurgia.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Ultrassom microfocado",
+            "descricao": "Energia concentrada nas camadas profundas para efeito lifting. O colágeno continua se formando por meses depois da sessão.",
+            "icone": "ultrassom"
+          },
+          {
+            "nome": "Drenagem e pós-operatório",
+            "descricao": "Drenagem linfática e método MAF para desinchar, aliviar e acompanhar a recuperação depois de lipo e abdominoplastia.",
+            "icone": "mao"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/revista.html"
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Como funciona",
+        "lead": "Do primeiro recado ao retorno.",
+        "itens": [
+          {
+            "titulo": "Você chama a Clara",
+            "texto": "Conte no WhatsApp o que quer cuidar. A Clara responde com as opções e os próximos horários.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "A avaliação",
+            "texto": "Na primeira visita, a conversa parte da sua queixa. Só depois vem a indicação do que faz sentido para o seu caso.",
+            "icone": "rosto"
+          },
+          {
+            "titulo": "O plano e as sessões",
+            "texto": "Procedimento único ou protocolo em etapas, com as datas combinadas antes de você sair.",
+            "icone": "agenda"
+          },
+          {
+            "titulo": "O retorno",
+            "texto": "Em preenchimento, toxina e bioestimulador, o resultado é revisto no retorno, quando ajustes ainda são possíveis.",
+            "icone": "check"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Preciso saber qual procedimento quero?",
+            "r": "Não. Diga o que incomoda: a avaliação existe justamente para indicar o caminho a partir da sua queixa."
+          },
+          {
+            "p": "Vocês atendem homens?",
+            "r": "Sim. Preenchimento, botox, harmonização e tratamentos corporais são feitos em mulheres e homens."
+          },
+          {
+            "p": "Dá para ir depois do trabalho?",
+            "r": "Dá. A clínica atende até as 21h. Peça os horários do fim do dia no WhatsApp."
+          },
+          {
+            "p": "Fazem drenagem no pós-operatório de cirurgia plástica?",
+            "r": "Sim, com drenagem linfática e com o método MAF. Fale com a Clara para encaixar as sessões no período que o seu cirurgião indicou."
+          },
+          {
+            "p": "Como fico sabendo das condições especiais?",
+            "r": "Pelo Grupo VIP no WhatsApp. O link está no Instagram @ludmillarabelo."
+          },
+          {
+            "p": "Onde fica a clínica?",
+            "r": "Na Avenida C-233, no Jardim América, em Goiânia."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Jardim América"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Sua melhor versão começa com uma mensagem",
+        "lead": "Conte o que quer mudar. A Clara responde com o horário livre mais próximo.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}

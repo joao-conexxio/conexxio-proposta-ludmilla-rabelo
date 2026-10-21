@@ -1,0 +1,134 @@
+<section class="blk-rev" id="revista">
+  <div class="wrap">
+    <div class="blk-rev__cab" data-reveal>
+      <p class="blk-rev__eyebrow">A revista da casa</p>
+      <h2 class="blk-rev__titulo">Quarenta e três procedimentos, explicados um a um</h2>
+      <p class="blk-rev__lead" data-acende>A Ludmilla montou uma revista própria com tudo o que a clínica faz: o que é cada procedimento, para que serve e como é a sessão. Este é o sumário.</p>
+    </div>
+    <div class="blk-rev__grade">
+      <div class="blk-rev__col" data-reveal>
+        <div class="blk-rev__colcab">
+          <span class="blk-rev__ico"><!--icone:mulher--></span>
+          <h3>Corpo</h3>
+          <span class="blk-rev__conta"><span data-count="21">21</span> procedimentos</span>
+        </div>
+        <ol class="blk-rev__lista">
+          <li>Drenagem linfática</li>
+          <li>Método MAF</li>
+          <li>Massagem relaxante</li>
+          <li>Massagem modeladora</li>
+          <li>Aplicação de enzimas</li>
+          <li>Magic Touch Detox</li>
+          <li>Ultrassom microfocado</li>
+          <li>Manta térmica</li>
+          <li>Lipocavitação</li>
+          <li>Carboxiterapia</li>
+          <li>Pump Up</li>
+          <li>Corrente russa</li>
+          <li>Detox iônico</li>
+          <li>Vibrocell</li>
+          <li>Manthus</li>
+          <li>Mega Contour</li>
+          <li>Endermologia</li>
+          <li>PEIM em microvasos</li>
+          <li>Criofrequência</li>
+          <li>Depilação a laser</li>
+          <li>Clareamento íntimo e de axilas</li>
+        </ol>
+      </div>
+      <div class="blk-rev__col" data-reveal style="--d:140ms">
+        <div class="blk-rev__colcab">
+          <span class="blk-rev__ico"><!--icone:rosto--></span>
+          <h3>Rosto</h3>
+          <span class="blk-rev__conta"><span data-count="22">22</span> procedimentos</span>
+        </div>
+        <ol class="blk-rev__lista">
+          <li>Preenchimento</li>
+          <li>Botox</li>
+          <li>Harmonização facial</li>
+          <li>Fio de PDO</li>
+          <li>Bioestimulador</li>
+          <li>Microagulhamento</li>
+          <li>Sessão de choque</li>
+          <li>Jato de plasma</li>
+          <li>Clareamento Zero Melasma</li>
+          <li>Limpeza de pele</li>
+          <li>Limpeza de pele biofotônica</li>
+          <li>Dermaplaning</li>
+          <li>Peeling químico</li>
+          <li>Peeling de diamante</li>
+          <li>Peeling Hollywood</li>
+          <li>Peeling do Mar Morto</li>
+          <li>Máscara de chocolate</li>
+          <li>Máscara de ouro</li>
+          <li>Hydra Glow Lips</li>
+          <li>MMP capilar</li>
+          <li>Design de sobrancelhas</li>
+          <li>Aplicação de cílios</li>
+        </ol>
+      </div>
+    </div>
+    <p class="blk-rev__nota" data-reveal>Quer a revista inteira? Peça à Clara no WhatsApp.</p>
+  </div>
+</section>
+
+<style>
+.blk-rev{padding-block:var(--sp-section);background:color-mix(in srgb,var(--pulse) 9%,var(--bg))}
+.blk-rev__cab{max-width:44rem}
+.blk-rev__eyebrow{
+  margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-rev__titulo{
+  margin:0;font-family:var(--f-display);font-size:var(--t-h2);font-weight:500;
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-rev__lead{margin:var(--sp-3) 0 0;font-size:1.12rem;line-height:1.6;color:var(--ink);max-width:38rem}
+.blk-rev__grade{display:grid;gap:var(--sp-4);margin-top:var(--sp-5)}
+.blk-rev__col{
+  padding:var(--sp-4);background:var(--bg);border-radius:var(--radius);
+  border:1px solid color-mix(in srgb,var(--pulse) 40%,transparent);
+}
+.blk-rev__colcab{
+  display:grid;grid-template-columns:auto 1fr;align-items:center;column-gap:var(--sp-2);
+  padding-bottom:var(--sp-3);margin-bottom:var(--sp-3);
+  border-bottom:1px solid color-mix(in srgb,var(--brand) 18%,transparent);
+}
+.blk-rev__ico{display:inline-flex;width:2.2rem;height:2.2rem;color:var(--brand);grid-row:span 2}
+.blk-rev__ico svg{width:100%;height:100%}
+.blk-rev__colcab h3{
+  margin:0;font-family:var(--f-display);font-size:clamp(2rem,6vw,2.8rem);font-weight:500;
+  line-height:1;color:var(--brand);
+}
+.blk-rev__conta{
+  font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;
+  color:color-mix(in srgb,var(--ink) 62%,transparent);
+}
+.blk-rev__lista{
+  list-style:none;margin:0;padding:0;counter-reset:rev;
+  display:grid;gap:.15rem var(--sp-3);
+}
+.blk-rev__lista li{
+  counter-increment:rev;display:flex;align-items:baseline;gap:.7rem;
+  padding-block:.45rem;font-size:1rem;line-height:1.35;color:var(--ink);
+  border-bottom:1px dotted color-mix(in srgb,var(--ink) 18%,transparent);
+}
+.blk-rev__lista li::before{
+  content:counter(rev,decimal-leading-zero);flex:none;width:1.8rem;
+  font-family:var(--f-display);font-size:1.05rem;font-style:italic;color:var(--brand);
+}
+.blk-rev__nota{
+  margin:var(--sp-4) 0 0;font-family:var(--f-display);font-style:italic;font-size:1.35rem;
+  color:var(--brand);
+}
+@media (min-width:40rem){
+  .blk-rev__lista{grid-template-columns:1fr 1fr}
+}
+@media (min-width:64rem){
+  .blk-rev__grade{grid-template-columns:1fr 1fr}
+  .blk-rev__lista{grid-template-columns:1fr}
+}
+@media (min-width:80rem){
+  .blk-rev__lista{grid-template-columns:1fr 1fr}
+}
+</style>
